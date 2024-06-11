@@ -1,8 +1,139 @@
 <html>
 <head>
-	<title>Me Two</title>
+	<title>About Me</title>
+		<style type="text/css">
+			body,html{font-family: Verdana, "sans serif"; font-size:14px;}
+			h1,h2{color:#C4A484; margin: 0px 0px 30px 0px;}
+			div.list{text-align: center;}
+			ul{border: 2px solid #000; text-align: left; box-sizing:border-box; display: inline-block}
+			#food{background-image: url(images/panang.jpg); background-size: 150px; width: 150px; height: 110px;}
+			#text{padding: 0px 0px 0px 175px; width: 600px;}
+			tr.rowcolor{background-color: #CC9999;}
+			#books{font-family: Verdana, "sans serif"; font-size:14px;}
+			div.form{display: block; justify-content: space-between; width: 60%;}
+			label{float: left; text-align: right; width: 15%;}
+			input{float: left; width: 75%;}
+			.icons {position: fixed; top: 100px; right: 35px}
+            		.icons img {height: 40px; width: 40px}
+			div.icons:hover {opacity:0.7;}
+
+</style>
 </head>
 <body>
-	<h1>Coming Soon</h1>
+	<h1>Christina Takla</h1>
+	<h2>A Fun Trip</h2>
+	<p>Last Summer I went to Italy with my cousins, and it was the <STRONG>adventure of a lifetime.</STRONG> The sights, food, and people were all wonderful and it was truly an experience I would love to have again. Travel in Italy was very straight-forward, and I definitely got all my steps in each day we were there.</p>
+	<h2>Favorite Pet Names</h2>
+	<div class="list">My 3 favorite pet names are:<p><ul> <li>Brazy for a dog</li> <li>Moss for an alpaca</li> <li>Miso for a cat</li></ul></p></div>
+	<h2>My Favorite Restaurant</h2>
+	<p>My favorite restaurant is <a href="https://www.agorarestaurants.net/dc-about-us/" target="_blank">Agora</a> in Washington D.C. This restaurant is not too far from me and is always a great choice for any meal, brunch, lunch, dinner, you name it. Their spreads are delicious and the ambience is cozy but luxurious at the same time. I have never been disappointed with this restaurant- and I don't think I will be in the future.</p>
+	<h2>My Favorite Dish</h2>
+	<div id="food">
+	<div id="text"><p>Despite a Mediterranean restaurant being my favorite, my favorite dish to eat is actually Panang Curry (pictured on the left). It is a Thai curry that is loaded with vegetables and has a bit of a kick. It is traditionally eaten with white rice, but I actually prefer to eat it with wide rice noodles.</p>
+</div>
+</div>
+<br clear="all"/>
+<h2>My Favorite Books</h2>
+<table border="4px" id="books">
+	<tr class="rowcolor">
+		<th><strong>BOOK</strong></th>
+		<th>COVER</th>
+		<th>AUTHOR</th>
+		<th>SUMMARY</th>
+	</tr>
+	<tr>
+		<td>It Ends With Us</td>
+		<td><img src="images/hoover.jpg" width="75px" height="125px"></td>
+		<td>Colleen Hoover</td>
+		<td>After her abusive father dies, Lily Bloom decides to follow her dream and open a flower shop. With the help of her new assistant, Allysa, the store project gets up and moving quickly, but Lily soon finds out that Allysa's brother, Ryle, is someone she met a year before and never forgot. As the story unfolds, we see Lily fall in love, encounter others from her past, and navigate unforseen challenges.</td>
+	</tr>
+	<tr class="rowcolor">
+		<td>Elements</td>
+		<td><img src="images/elements.jpg" width="75px" height="125px"></td>
+		<td>A Priest of the Oriental Church</td>
+		<td>Elijah is a first generation Egyptian-Canadian boy who feels out of touch with his parents religion and culture. We follow him on his journey to learning about himself and forging a relationship with God.</td>
+	</tr>
+	<tr>
+		<td>The Greatest: Muhammad Ali</td>
+		<td><img src="images/tg.jpg" width="75px" height="125px"></td>
+		<td>Walter Dean Myers</td>
+		<td>A biography about the greatest boxer of all time. This book celebrates his childhood and career while also shining a light on the dangers of boxing.</td>
+	</tr>
+	<tr class="rowcolor">
+		<td>The Southern Book Club's Guide To Slaying Vampires</td>
+		<td><img src="images/sbc.jpg" width="75px" height="125px"></td>
+		<td>Grady Hendrix</td>
+		<td>Patricia Campbell feels like life is passing her by now that her kids are teenagers and her husband has been busy at work. The only thing keeping her entertained is her book club and her relationships with the women in the book club. That is until there is a newcomer in town. Patricia becomes intrigued with the mystery surrounding this man and it may cost her her life.</td>
+</table>
+<form>
+	<div class="form">
+  	<p><label for="fname">First Name:</label>
+  	<input type="text" name="first" id="first" /></p>
+	<p><label for="lname">Last Name:</label>
+  	<input type="text" name="last" id="last" /></p>
+	<p><label for="city">City:</label>
+  	<input type="text" name="city" id="city" /></p>
+	<p><label for="State">State:</label>
+  	<select name="State" id="State" />
+		<option value="">--Please choose an option--</option>
+  		<option value="Alabama">AL</option>
+  		<option value="Alaska">AK</option>
+  		<option value="Arizona">AZ</option>
+  		<option value="Arkansas">AR</option>
+  		<option value="California">CA</option>
+  		<option value="Colorado">CO</option>
+		<option value="Connecticut">CT</option>
+  		<option value="District of Columbia">DC</option>
+  		<option value="Delaware">DE</option>
+  		<option value="Florida">FL</option>
+  		<option value="Georgia">GA</option>
+  		<option value="Hawaii">HI</option>
+		<option value="Idaho">ID</option>
+  		<option value="Illinois">IL</option>
+  		<option value="Indiana">IN</option>
+  		<option value="Iowa">IA</option>
+  		<option value="Kansas">KS</option>
+  		<option value="Kentucky">KY</option>
+		<option value="Louisiana">LA</option>
+  		<option value="Maine">ME</option>
+  		<option value="Maryland">MD</option>
+  		<option value="Massachusetts">MA</option>
+  		<option value="Michigan">MI</option>
+  		<option value="Minnesota">MN</option>
+		<option value="Mississippi">MS</option>
+  		<option value="Missouri">MO</option>
+  		<option value="Montana">MT</option>
+  		<option value="Nebraska">NE</option>
+  		<option value="Nevada">NV</option>
+  		<option value="New Hampshire">NH</option>
+		<option value="New Jersey">NJ</option>
+  		<option value="New Mexico">NM</option>
+  		<option value="New York">NY</option>
+  		<option value="North Carolina">NC</option>
+  		<option value="North Dakota">ND</option>
+  		<option value="Ohio">OH</option>
+		<option value="Oklahoma">OK</option>
+  		<option value="Oregon">OR</option>
+  		<option value="Pennsylvania">PA</option>
+  		<option value="Rhode Island">RI</option>
+  		<option value="South Carolina">SC</option>
+  		<option value="South Dakota">SD</option>
+		<option value="Tennessee">TN</option>
+  		<option value="Texas">TX</option>
+  		<option value="Utah">UT</option>
+  		<option value="Vermont">VT</option>
+  		<option value="Virginia">VA</option>
+  		<option value="Washington">WA</option>
+		<option value="West Virginia">WV</option>
+  		<option value="Wisconsin">WI</option>
+  		<option value="Wyoming">WY</option>
+	</select></p>
+	</div>
+</form>
+	<div class="icons">
+		<a href="https://www.facebook.com/profile.php?id=100006015887125" target="_blank"><img src="images/fb.jpg" width="50px" height="50px"></a>
+		<a href="https://x.com/christina_takla" target="_blank"><img src="images/x.png" width="50px" height="50px"></a>
+	</div>
+
 </body>
 </html>
